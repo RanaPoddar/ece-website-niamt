@@ -6,6 +6,9 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import "../App.css"
 import "../../Styles/custom-swiper-bullet.css"
+import img1 from '../assets/banner.jpg'
+import img2 from '../assets/team.jpeg'
+import img3 from '../assets/bg1.jpeg'
 
 
 const SnapShorts = () => {
@@ -21,6 +24,7 @@ const snapshortData = [
 </div>
 
 <div className='flex rounded-md justify-center items-center px-5 md:px-24 w-[100%] h-[50vw] md:h-[35vw] '>
+
 <Swiper
 style={{
   "--swiper-pagination-color": "#F3F806",
@@ -48,18 +52,18 @@ style={{
 
 
 <SwiperSlide>
-    <div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%)`}} className='bg-gray-500 w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-center'>
-    <h1 className='text-xl text-white font-semibold'>Slide 1</h1>
+    <div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%)`}} className='w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-center'>
+    <img src={img1}/>
     </div>
 </SwiperSlide>
 <SwiperSlide>
     <div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%)`}} className='bg-gray-500 w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-center'>
-    <h1 className='text-xl text-white font-semibold'>Slide 2</h1>
+    <img src={img2}/>
     </div>
 </SwiperSlide>
 <SwiperSlide>
     <div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%)`}} className='bg-gray-500 w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-center'>
-    <h1 className='text-xl text-white font-semibold'>Slide 3</h1>
+    <img src={img3}/>
     </div>
 </SwiperSlide>
 

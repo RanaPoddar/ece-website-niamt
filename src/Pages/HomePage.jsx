@@ -9,6 +9,7 @@ import Faculty from '../Components/Faculty'
 import Hod from '../Components/Hod'
 import Footer from '../Components/Footer'
 import Notification from '../Components/Notification'
+import Faculty2 from '../Components/Faculty2'
 
 
 const HomePage = () => {
@@ -21,7 +22,7 @@ const HomePage = () => {
     <Events/>
     <SnapShorts/>
     <About/>
-    {/* <Faculty/> */}
+    <Faculty2/>
     <Hod/>
     <Footer/>
     </>

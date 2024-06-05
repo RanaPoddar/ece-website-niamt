@@ -12,8 +12,11 @@ const About = () => {
 {/* About Section */}
 {/* main Container div */}
 <div className='xl:flex justify-center gap-3 px-5 md:px-10 md:py-10'>
-<div className='w-full md:flex-none md:w-[28rem] md:h-80 max-w-[28rem] max-h-80 sm:float-left sm:mr-3 mb-3'>
-<img className='w-full h-full' src={aboutImg}/>
+<div className=' md:flex-none w-full h-40 md:w-[28rem] md:h-72 max-w-[28rem] max-h-80 sm:float-left sm:mr-3 mb-3'>
+{/* <img className='w-full h-full' src={aboutImg}/> */}
+<div className='h-full w-full'>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/zYaAyAantfI?si=P0Je8bJzPeu61zbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 </div>
 
 

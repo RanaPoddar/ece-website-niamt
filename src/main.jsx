@@ -11,6 +11,9 @@ import AboutPage from './Pages/AboutPage.jsx';
 import ContactPage from './Pages/ContactPage.jsx';
 import ResourcePage from './Pages/ResourcePage.jsx';
 import ResearchPage from './Pages/ResearchPage.jsx';
+import FacultyPage from './Pages/FacultyPage.jsx';
+import NotificationPage from './Pages/NotificationPage.jsx';
+import AcademicProgrammesPage from './Pages/AcademicProgrammesPage.jsx';
 
 
 
@@ -39,6 +42,18 @@ children : [
     path: "/research",
     element: <ResearchPage/>
   },
+{
+  path: "/faculty",
+  element: <FacultyPage/>
+},
+{
+  path: "/notifications",
+  element: <NotificationPage/>
+},
+{
+  path: "/academic-programmes",
+  element: <AcademicProgrammesPage/>
+}
 
 ]
   },
