@@ -36,7 +36,7 @@ const announcementList = [
 <ul className='flex flex-col gap-3 font-poppins '>
     {announcementList.map((d) => (
         <li key={d.message} className='flex text-lg'>
-        <FaArrowRightLong className='mr-3 mt-1 font-extrabold text-customBlueDark'/>
+        <FaArrowRightLong className='text-xl mr-3 mt-1 font-extrabold text-customBlueDark'/>
         <a href={d.link}>{d.message}</a>
         </li>
     ))}

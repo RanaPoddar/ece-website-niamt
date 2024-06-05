@@ -8,17 +8,20 @@ import About from '../Components/About'
 import Faculty from '../Components/Faculty'
 import Hod from '../Components/Hod'
 import Footer from '../Components/Footer'
+import Notification from '../Components/Notification'
+
 
 const HomePage = () => {
   return (
     <>
+   <Notification/> 
 <Hero/>
     <Tab/>
     <Announcements/>
     <Events/>
     <SnapShorts/>
     <About/>
-    <Faculty/>
+    {/* <Faculty/> */}
     <Hod/>
     <Footer/>
     </>

@@ -36,7 +36,7 @@ const handleMenu = () => {
 
   return (
     <>
-    <div className=' w-full lg:h-28 pt-3 pb-1 sm:pb-0 sm:pt-0'>
+    <div className='w-full lg:h-24 pt-3 pb-1 sm:pb-0 sm:pt-0'>
     <div className='px-3 lg:px-28 lg:py-1 h-full w-full flex items-center justify-between '>
 
 <div className='flex items-center'>
