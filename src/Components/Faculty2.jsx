@@ -132,7 +132,7 @@ const Faculty2 = () => {
 
 <div className='flex justify-center mt-4'>
 <Link to="/faculty" className='flex justify-center' >
-<h2 className='text-customBlueDark font-bold font-poppins text-sm'>Show Details</h2>
+<h2 className='text-customBlueDark font-bold font-poppins text-sm'><a href="https://niamt.ac.in/UserView/PeopleListing.aspx?TypeID=8">Show Details</a></h2>
 <MdOutlineKeyboardDoubleArrowRight className='text-customBlueDark text-xl'/> 
 </Link>
 </div>
