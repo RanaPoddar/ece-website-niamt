@@ -23,7 +23,7 @@ const snapshortData = [
     <h1 className='text-3xl md:text-4xl font-josefin font-bold pb-7'>Snapshorts</h1>
 </div>
 
-<div className='flex rounded-md justify-center items-center px-5 md:px-24 w-[100%] h-[50vw] md:h-[35vw] '>
+<div className='flex justify-center items-center px-5 md:px-24 w-[100%] h-[50vw] md:h-[35vw] '>
 
 <Swiper
 style={{
@@ -52,17 +52,17 @@ style={{
 
 
 <SwiperSlide>
-    <div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%)`}} className='w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-center'>
+    <div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%)`}} className='w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-center rounded-xl'>
     <img src={img1}/>
     </div>
 </SwiperSlide>
 <SwiperSlide>
-    <div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%)`}} className='bg-gray-500 w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-center'>
+    <div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%)`}} className='bg-gray-500 w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-center rounded-xl'>
     <img src={img2}/>
     </div>
 </SwiperSlide>
 <SwiperSlide>
-    <div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%)`}} className='bg-gray-500 w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-center'>
+    <div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%)`}} className='bg-gray-500 w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-center rounded-xl '>
     <img src={img3}/>
     </div>
 </SwiperSlide>

@@ -43,11 +43,11 @@ const Events = () => {
 </div>
 
 <div className='w-full flex justify-start '>
-<button onClick={handleClick} className='px-4 py-3 bg-customBlueLight text-customBlueDark font-semibold rounded-ss-lg  font-poppins '>Upcoming Events </button>
-<button onClick={handleClick} className='px-4 py-3 bg-lightPink text-customBlueDark font-semibold font-poppins rounded-se-lg'>Past Events </button>
+<button onClick={handleClick} className='px-4 py-3 bg-customBlueLight text-customBlueDark font-semibold rounded-ss-xl  font-poppins '>Upcoming Events </button>
+<button onClick={handleClick} className='px-4 py-3 bg-lightPink text-customBlueDark font-semibold font-poppins rounded-se-xl'>Past Events </button>
 </div>
 {/* Upcoming Events */}
-<div className={`${upcoming ? "bg-customBlueLight" : "bg-lightPink"} w-full p-5`}>
+<div className={`${upcoming ? "bg-customBlueLight" : "bg-lightPink"} w-full p-5 rounded-e-xl rounded-bl-xl  `}>
 
 {/* Cards */}
 <div className='grid items-stretch grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 md:gap-6'>

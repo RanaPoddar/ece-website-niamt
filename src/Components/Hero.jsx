@@ -21,7 +21,7 @@ const data = [
 const Hero = () => {
   return (
     <>
-    <div className='w-full h-[70vh] md:h-[80vh] bg-gray-400 relative '>
+    <div className='w-full h-[70vh] md:h-[80vh] bg-black relative '>
     <div className='w-full z-10 absolute top-0 flex justify-center '>
         <Navbar/>
     </div>

@@ -36,12 +36,12 @@ const handleMenu = () => {
 
   return (
     <>
-    <div className='w-full lg:h-24 pt-3 pb-1 sm:pb-0 sm:pt-0'>
+    <div className='w-full lg:h-24 pt-3 pb-1 sm:pb-0 sm:pt-0 bg-white'>
     <div className='px-3 lg:px-28 lg:py-1 h-full w-full flex items-center justify-between '>
 
 <div className='flex items-center'>
 <div className='px-3 py-1'>
-    <img className='md:h-20 md:w-20 h-10' src={logo}/>
+    <img className='md:h-20 md:w-20 h-10 aspect-w-20 aspect-h-20' src={logo}/>
     </div>
 
     <div className='pb-1 w-[60%] sm:w-full'>
