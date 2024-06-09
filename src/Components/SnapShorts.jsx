@@ -6,9 +6,9 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import "../App.css"
 import "../../Styles/custom-swiper-bullet.css"
-import img1 from '../assets/banner.jpg'
-import img2 from '../assets/team.jpeg'
-import img3 from '../assets/bg1.jpeg'
+import img1 from '../assets/Snapshorts/snap1.jpg'
+import img2 from '../assets/Snapshorts/snap2.jpg'
+import img3 from '../assets/Snapshorts/snap3.jpg'
 
 
 const SnapShorts = () => {
