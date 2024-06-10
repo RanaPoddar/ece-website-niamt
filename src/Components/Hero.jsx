@@ -1,6 +1,9 @@
 import React from 'react'
 import Navbar from './Navbar'
 import img1 from '../assets/banner.jpg'
+import img2 from '../assets/banner1.jpg'
+import img3 from '../assets/banner2.jpg'
+import img4 from '../assets/banner3.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -66,21 +69,21 @@ style={{
 </div>
 </SwiperSlide>
 <SwiperSlide>
-<div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%) ,url(${img1})`}} className='dark w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-end'>
+<div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%) ,url(${img2})`}} className='dark w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-end'>
 
 <p className='text-white text-base sm:text-xl font-josefin font-semibold pb-14'>This is a Quote ... Quote Number 2</p>
 </div> 
 </SwiperSlide>
 
 <SwiperSlide>
-<div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%) ,url(${img1})`}} className='dark w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-end'>
+<div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%) ,url(${img3})`}} className='dark w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-end'>
 
 <p className='text-white text-base sm:text-xl font-josefin font-semibold pb-14'>This is a Quote ... Quote Number 3</p>
 </div> 
 </SwiperSlide>
 
 <SwiperSlide>
-<div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%) ,url(${img1})`}} className='dark w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-end'>
+<div style={{ backgroundImage: `linear-gradient(rgb(3,3,3) 0%, rgba(8,7,8,0) 43.83%, rgb(3,3,3) 90.13%) ,url(${img4})`}} className='dark w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-end'>
 
 <p className='text-white text-base sm:text-xl font-josefin font-semibold pb-14'>This is a Quote ... Quote Number 4</p>
 </div> 
